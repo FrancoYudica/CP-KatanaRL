@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxmi03xry6jb4"]
+
+[ext_resource type="Texture2D" uid="uid://v73sue03ndq1" path="res://icon.svg" id="1_n6gbh"]
+
+[node name="TestScene" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(159, 114)
+texture = ExtResource("1_n6gbh")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 136.0
+offset_top = 19.0
+offset_right = 460.0
+offset_bottom = 156.0
+theme_override_font_sizes/font_size = 16
+text = "Godot!"
